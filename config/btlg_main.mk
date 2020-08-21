@@ -13,6 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/common/etc/permissions/com.android.providers.weather.xml:system/etc/permissions/com.android.providers.weather.xml \
     vendor/bootleggers/prebuilt/common/etc/default-permissions/com.android.providers.weather.xml:system/etc/default-permissions/com.android.providers.weather.xml
 
+PRODUCT_COPY_FILES += vendor/bootleggers/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 # Fonts to copy
 PRODUCT_COPY_FILES += \
     vendor/bootleggers/prebuilt/fonts/gobold/Gobold.ttf:system/fonts/Gobold.ttf \
